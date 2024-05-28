@@ -1,0 +1,55 @@
+.My {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .my-heading {
+    margin-bottom: 20px;
+  }
+  
+  .my-info {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .my-info div {
+    margin-bottom: 10px;
+  }
+  
+  .my-info label {
+    font-weight: bold;
+  }
+  
+  .my-info input[type="text"],
+  .my-info input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .my-info span {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .my-info button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .my-info button:hover {
+    background-color: #45a049;
+  }
+  
