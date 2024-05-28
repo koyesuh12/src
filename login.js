@@ -95,7 +95,7 @@ const Login = () => {
               />
             </div>
             <div className="button-group">
-                    <button type="submit">로그인</button>
+                    <button type="submit">LOGIN</button>
              </div>
         </form>
           </div>

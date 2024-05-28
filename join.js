@@ -32,32 +32,32 @@ const Join = () => {
                 <input
                     type="text"
                     name="username"
-                    placeholder="아이디"
+                    placeholder="ID"
                     value={username}
                     onChange={(e) => setUsername1(e.target.value)}
                 />
                 <input
                     type="password"
                     name="password"
-                    placeholder="비밀번호"
+                    placeholder="PASSWORD"
                     value={password}
                     onChange={(e) => setPassword1(e.target.value)}
                 />
                 <input
                     type="password"
-                    placeholder="비밀번호 확인"
+                    placeholder="VERIFY PASSWORD"
                     value={confirmPassword}
                     onChange={(e) => setConfirmPassword(e.target.value)}
                 />
                 <input
                     type="text"
-                    placeholder="이메일"
+                    placeholder="E-MAIL"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                 />
                 <input
                     type="text"
-                    placeholder="전화번호"
+                    placeholder="PHONE NUM"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                 />
